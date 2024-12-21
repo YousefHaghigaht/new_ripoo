@@ -9,7 +9,7 @@ from . import serializers
 class HomePageView(APIView):
 
     def get(self,request):
-        return Response(data={'message':'This is home page True.'},status=status.HTTP_200_OK)
+        return Response(data={'message':'This is home page.'},status=status.HTTP_200_OK)
     
 
 class ContactUsView(ListAPIView):
